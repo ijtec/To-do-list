@@ -15,10 +15,15 @@ function App() {
     }
 
     const addTodos = () => {
-        setTodos(prevState => [...prevState, {
-            id: todos.length + 1,
-            text: input 
-        }]) 
+        if (input==='') {
+            return    
+        } else {
+            setTodos(prevState => [...prevState, {
+                id: todos.length + 1,
+                text: input 
+            }]) 
+        }
+        
     }
 
     const deleteTodo = (todo) => {
