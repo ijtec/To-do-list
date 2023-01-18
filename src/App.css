@@ -1,60 +1,115 @@
-.opt{
-    border: 10px;
-    padding: 10px;
-    background-color: #f7d44c;
+.cont{
+    background-color: #eb7a53;
+    border-radius: 30px;
+    padding: 50px;
     width: 400px;
-    text-align: center;
-    height: 150px;
-    margin-left: 5px;
-    border-radius: 5px;
-    margin-top: 10px;
 }
-h1{
-    color: #ffffff;
-    position: absolute;
-    top: 20px;
-    left: 100px;
 
+  #one{
+    padding: 12px;
+     border-radius:30px;
+     background-color: #f7d44c;
+     margin-top: 10px;
+     width: 480px;
+    
+     
+  }
+span{
+    color: #f6ecc9;
+    position: absolute;
+    left: 250px;
+    
+    
+}
+#edit{
+    border: none;
+    width: 70px;
+    border-radius: 30px;
+    padding: 2px;
+    height: 40px;
+    background-color:#a8d672;
+    margin: 5px;
+}
+#delete{
+    border: none;
+    width: 70px;
+    border-radius: 30px;
+    padding: 2px;
+    height: 40px;
+    background-color: rgb(211, 39, 39);
+    margin: 5px;
+}
+.date{
+    margin-top:20px;
+}
+
+#two{
+    padding: 12px;
+     border-radius:30px;
+     background-color: #f7d44c;
+     margin-top: 10px;
+     width: 480px;
+    
+}
+#three{
+    padding: 12px;
+     border-radius:30px;
+     background-color: #f7d44c;
+     margin-top: 10px;
+     width: 480px;
+}
+
+#four{
+    padding: 12px;
+     border-radius:30px;
+     background-color: #f7d44c;
+     margin-top: 10px;
+     width: 480px;
+}
+
+#five{
+    padding: 12px;
+     border-radius:30px;
+     background-color: #f7d44c;
+     margin-top: 10px;
+     width: 480px;
+}
+
+#six{
+    padding: 12px;
+     border-radius:30px;
+     background-color: #f7d44c;
+     margin-top: 10px;
+     width: 480px;
+}
+
+#seven{
+    padding: 12px;
+     border-radius:30px;
+     background-color: #f7d44c;
+     margin-top: 10px;
+     width: 480px;
 }
 input{
-    height: 25px;
-    border-radius: 2px;
-    width: 200px;
-}
-button{
+    width: 250px;
     height: 30px;
-    border-radius: 2px;
-    width: 50px;
-
+    border: none;
+    border-radius: 30px;  
+    flex-direction: row;
+    background-color:#98b7db;
+    padding: 5px;
 }
-.btn{
-    display: block;
-    margin-top: 100px;
+h3{
+     position: absolute;
+     top: 2px;
+}
+.cont button{
+    border: none;
+    width: 100px;
     position: absolute;
-    top: -15px;
-    margin-left:70px;
-}
-#td1{
-    display: flex;
-    justify-content: space-between;
-    background-color: #a8d672;
-    width: 420px;
-    height: 50px;
-    border-radius: 5px;
-    margin-left: 5px;
-    color: white;
-    border-radius: 5px;
-    align-items: center;
-    margin-top: 20px;
-}
-#td1 > button {
-    background-color: black;
-    color: #98b7db;
-    height: 100%;
-}
-.todos{
-    display:flex;
-    flex-direction: column;
-    height:auto;
-    
+    top: 100px;
+    left: 330px;
+    border-radius: 30px;
+    padding: 5px;
+    height: 40px;
 }
